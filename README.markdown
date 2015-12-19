@@ -18,7 +18,14 @@ If you are using the Gradle build system, simply add the following dependency in
 
 ```groovy
 dependencies {
-    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:<VERSION>'
+}
+```
+
+For the version variable, [search Maven Central](http://search.maven.org/#search%7Cga%7C1%7Csqliteassethelper) and choose [the most recent version](http://search.maven.org/#artifactdetails%7Ccom.readystatesoftware.sqliteasset%7Csqliteassethelper%7C2.0.1%7Cjar). For instance, to compile version 2.0.1, the line will read:
+```groovy
+dependencies {
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
 }
 ```
 
